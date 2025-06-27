@@ -1,0 +1,62 @@
+/* Center the form */
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 50px;
+}
+
+/* Style the input box */
+input[type="text"] {
+  width: 250px;
+  padding: 10px 15px;
+  border: 2px solid palevioletred;
+  border-radius: 5px;
+  font-size: 26px;
+  transition: border-color 0.3s ease;
+  background-color: white;
+}
+
+/* Focus effect on input */
+input[type="text"]:focus {
+  border-color: palevioletred;
+  outline: none;
+}
+
+/* Style the Add button */
+button {
+  padding: 10px 20px;
+  background-color: palevioletred;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Hover effect on the button */
+button:hover {
+  transform: scale(1.05);
+}
+
+/* Optional: Style the List display */
+.list {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 18px;
+  color: #333;
+}
+.msg {
+  font-size: 20px;
+  color: red;
+  text-align: center;
+  margin-top: 20px;
+}
+.add {
+  font-size: 25px;
+  color: white;
+  text-align: center;
+
+}

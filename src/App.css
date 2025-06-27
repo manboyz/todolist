@@ -1,0 +1,12 @@
+*{
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: rgb(213, 169, 213);
+}
+h1{
+  margin-top: 50px;
+  color: white;
+  font-size: 55px;
+} 

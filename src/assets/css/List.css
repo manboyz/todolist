@@ -1,0 +1,22 @@
+.list-task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+  background-color: white;
+  list-style: none;
+  border: 1px solid palevioletred;
+  border-radius: 5px;
+  font-size: 30px;
+  padding: 15px 30px;
+  color: palevioletred;
+}
+.delete {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
